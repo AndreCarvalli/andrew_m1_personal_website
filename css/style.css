@@ -80,7 +80,8 @@ body{
     gap: 32px;
 }
 .cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 310px);
     gap: 12px;
     justify-content: center;
     align-items: center;
